@@ -1,8 +1,14 @@
+import { Link } from "react-router-dom";
+import MyRouter from "./router";
 
 function App() {
   return (
     <div>
-      <h1>Hello Roy</h1>
+      <Link to= "/">Home</Link>
+      <Link to= "/about-us">About Us</Link>
+      <Link to= "/contact-us">Contact Us</Link>
+
+      <MyRouter/>
     </div>
   );
 }
