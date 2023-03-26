@@ -6,7 +6,7 @@ function Navbar() {
     <nav className="navbar navbar-expand-lg bg-body-tertiary shadow">
       <div className="container">
         <Link className="navbar-brand" to="/">
-          Navbar
+          Octal Ideas
         </Link>
         <button
           className="navbar-toggler"
