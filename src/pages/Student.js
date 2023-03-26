@@ -49,7 +49,9 @@ function Student() {
             <div className='card'>
                 <div className='card-header'>
                     <h4>Student List
-                        <Link to="/" className='btn btn-primary float-end'>Add Student</Link>
+                        <Link to="/students/create" className='btn btn-primary float-end'>
+                            Add Student
+                        </Link>
                     </h4>
                 </div>
                 <div className='card-body'>
